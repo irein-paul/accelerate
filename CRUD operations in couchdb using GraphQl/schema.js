@@ -7,7 +7,6 @@ const {
     GraphQLNonNull
 } = require('graphql')
 
-// const empcollection = require('./service')
 const operation = require('./service');
 
 const CustomerType = new GraphQLObjectType({
