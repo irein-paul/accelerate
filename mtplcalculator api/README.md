@@ -20,7 +20,8 @@
 	- In Postman Client, populate the body with the below sample details :
 
 
-	   { "vehicleInfo": {
+	   { 
+	   "vehicleInfo": {
 	      "registrationNumber": "QS16CD9864",
 	      "certificateNumber": 59543962,
 	      "purpose": "personal use",
@@ -39,11 +40,11 @@
 
 	- make request to http://localhost:3000/mtpCalculator
 
-	- On successful addition of details, it gives the success message as  
-
-		    {
-           "message": "details added successfully!!"
-        }
+	- On successful addition of details, it gives the success message as :
+		
+		{
+		"message": "details added successfully!!"
+		}
 
 
 5) To make a get request :
