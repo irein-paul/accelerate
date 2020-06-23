@@ -5,7 +5,8 @@ let service={}
 service.adddetails = ((details) => {
     return db.adddetails(details).then((data) => {
         if (data == null) {
-             return {"message":"details added successfully!!"};
+             //return {"message":"details added successfully!!"};
+            return {"oneInst":500,"twoInst":510,"fourInst":530}  //  returning dummy data
         } else {
             let err = new Error("failed to insert details!!");
             err.status = 404;
