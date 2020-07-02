@@ -1,5 +1,5 @@
 
-Run an MongoDb instance (by executing mongod command in the command prompt)
+Run a MongoDb instance (by executing "mongod" command in the command prompt)
 
 Run the server.js file in VS Code 
 
@@ -17,6 +17,7 @@ POST
 http://localhost:4000/mtpl/postmtplCalculator
 
 body:-
+
 {
 		"id":1,
         "vehicleInfo": {
@@ -56,6 +57,7 @@ POST
 http://localhost:4000/mtpl/getmtplCalculator
 
 body:-
+
 {
 	"id":1
 }
@@ -99,6 +101,7 @@ POST
 http://localhost:4000/mtpl/postPurchasePolicy
 
 body:-
+
 {
 	"id":1,
     "contactInformation" : {
@@ -125,11 +128,13 @@ POST
 http://localhost:4000/mtpl/getPurchasePolicy
 
 body:-
+
 {
 	"id":1
 }
 
 output:-
+
 {
     "data": {
         "contactInformation": {
@@ -155,6 +160,7 @@ GET
 http://localhost:4000/mtpl/getInstallmentOptions
 
 output:-
+
 [
     {
         "title": "Single Payment",
@@ -198,6 +204,7 @@ GET
 http://localhost:4000/provinces/getProvincesList
 
 output:-
+
 [
     {
         "pname": "Blagoevgrad"
