@@ -10,27 +10,27 @@
     
     {
 		"token":"joxNTkzNzIxNDg4fQ.WhSSeOeZX8bRMj5Sy63NmJZpTBecfNf7OwDuJT4Yfkc",
-        "vehicleData": {
+        "vehicledata": {
             "registrationNumber":"TS16AB1231",
             "certificateNumber":"12345671",
             "purpose":"personal use",
             "outsideBulgarianTerritory":"yes"
         },
-        "insuringPartyData":{ 
+        "insuringpartydata":{ 
             "egn":9207088121,
             "permanentResidence":"asd,xyz street, mumbai",
             "email":"asd@gmail.com"
         },
-        "policyDetailsData": { 
+        "policydetailsdata": { 
             "startDate":"20-6-2020",
             "policyLength":"12 months"
         },
-        "installmentsData": {
+        "installmentsdata": {
             "type":"single",
             "period":"12 months",
             "price":28500
         },
-        "coversData":[{
+        "coversdata":[{
             "type":"None",
             "description":"insurance",
             "rate":"0",
@@ -66,27 +66,27 @@
     {
     "data": {
         "token": "joxNTkzNzIxNDg4fQ.WhSSeOeZX8bRMj5Sy63NmJZpTBecfNf7OwDuJT4Yfkc",
-        "vehicleData": {
+        "vehicledata": {
             "registrationNumber": "TS16AB1231",
             "certificateNumber": "12345671",
             "purpose": "personal use",
             "outsideBulgarianTerritory": "yes"
         },
-        "insuringPartyData": {
+        "insuringpartydata": {
             "egn": 9207088121,
             "permanentResidence": "asd,xyz street, mumbai",
             "email": "asd@gmail.com"
         },
-        "policyDetailsData": {
+        "policydetailsdata": {
             "startDate": "20-6-2020",
             "policyLength": "12 months"
         },
-        "installmentsData": {
+        "installmentsdata": {
             "type": "single",
             "period": "12 months",
             "price": 28500
         },
-        "coversData": [
+        "coversdata": [
             {
                 "type": "None",
                 "description": "insurance",
